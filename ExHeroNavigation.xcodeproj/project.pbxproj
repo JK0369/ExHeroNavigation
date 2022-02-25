@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B3E005C7B4453854C87CC648 /* Pods_ExHeroNavigation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DA4BF85D72AD81A9EB09956 /* Pods_ExHeroNavigation.framework */; };
 		C69F8E4427C868AF00CB0850 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69F8E4327C868AF00CB0850 /* AppDelegate.swift */; };
 		C69F8E4627C868AF00CB0850 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69F8E4527C868AF00CB0850 /* SceneDelegate.swift */; };
 		C69F8E4827C868AF00CB0850 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69F8E4727C868AF00CB0850 /* ViewController.swift */; };
 		C69F8E4B27C868AF00CB0850 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C69F8E4927C868AF00CB0850 /* Main.storyboard */; };
 		C69F8E4D27C868B000CB0850 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C69F8E4C27C868B000CB0850 /* Assets.xcassets */; };
 		C69F8E5027C868B000CB0850 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C69F8E4E27C868B000CB0850 /* LaunchScreen.storyboard */; };
+		C69F8E5827C8694400CB0850 /* VC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69F8E5727C8694400CB0850 /* VC2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2DA4BF85D72AD81A9EB09956 /* Pods_ExHeroNavigation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExHeroNavigation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D2821F5BAEC4B642918FDEF /* Pods-ExHeroNavigation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExHeroNavigation.release.xcconfig"; path = "Target Support Files/Pods-ExHeroNavigation/Pods-ExHeroNavigation.release.xcconfig"; sourceTree = "<group>"; };
+		46856F62F2536941A0011833 /* Pods-ExHeroNavigation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExHeroNavigation.debug.xcconfig"; path = "Target Support Files/Pods-ExHeroNavigation/Pods-ExHeroNavigation.debug.xcconfig"; sourceTree = "<group>"; };
 		C69F8E4027C868AF00CB0850 /* ExHeroNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExHeroNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C69F8E4327C868AF00CB0850 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C69F8E4527C868AF00CB0850 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		C69F8E4C27C868B000CB0850 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C69F8E4F27C868B000CB0850 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C69F8E5127C868B000CB0850 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C69F8E5727C8694400CB0850 /* VC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3E005C7B4453854C87CC648 /* Pods_ExHeroNavigation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A14D3A9202E7BE64DDEBF03 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46856F62F2536941A0011833 /* Pods-ExHeroNavigation.debug.xcconfig */,
+				3D2821F5BAEC4B642918FDEF /* Pods-ExHeroNavigation.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C69F8E3727C868AE00CB0850 = {
 			isa = PBXGroup;
 			children = (
 				C69F8E4227C868AF00CB0850 /* ExHeroNavigation */,
 				C69F8E4127C868AF00CB0850 /* Products */,
+				5A14D3A9202E7BE64DDEBF03 /* Pods */,
+				F0E9BC3A287C73EB53FABD34 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +77,21 @@
 				C69F8E4327C868AF00CB0850 /* AppDelegate.swift */,
 				C69F8E4527C868AF00CB0850 /* SceneDelegate.swift */,
 				C69F8E4727C868AF00CB0850 /* ViewController.swift */,
+				C69F8E5727C8694400CB0850 /* VC2.swift */,
 				C69F8E4927C868AF00CB0850 /* Main.storyboard */,
 				C69F8E4C27C868B000CB0850 /* Assets.xcassets */,
 				C69F8E4E27C868B000CB0850 /* LaunchScreen.storyboard */,
 				C69F8E5127C868B000CB0850 /* Info.plist */,
 			);
 			path = ExHeroNavigation;
+			sourceTree = "<group>";
+		};
+		F0E9BC3A287C73EB53FABD34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DA4BF85D72AD81A9EB09956 /* Pods_ExHeroNavigation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C69F8E5427C868B000CB0850 /* Build configuration list for PBXNativeTarget "ExHeroNavigation" */;
 			buildPhases = (
+				3FBAF4C25736E54028EC8DDA /* [CP] Check Pods Manifest.lock */,
 				C69F8E3C27C868AE00CB0850 /* Sources */,
 				C69F8E3D27C868AE00CB0850 /* Frameworks */,
 				C69F8E3E27C868AE00CB0850 /* Resources */,
+				D67E9B6AFAE29DF3E34AA795 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,6 +162,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3FBAF4C25736E54028EC8DDA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExHeroNavigation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D67E9B6AFAE29DF3E34AA795 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExHeroNavigation/Pods-ExHeroNavigation-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExHeroNavigation/Pods-ExHeroNavigation-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ExHeroNavigation/Pods-ExHeroNavigation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C69F8E3C27C868AE00CB0850 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -141,6 +212,7 @@
 				C69F8E4827C868AF00CB0850 /* ViewController.swift in Sources */,
 				C69F8E4427C868AF00CB0850 /* AppDelegate.swift in Sources */,
 				C69F8E4627C868AF00CB0850 /* SceneDelegate.swift in Sources */,
+				C69F8E5827C8694400CB0850 /* VC2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +356,7 @@
 		};
 		C69F8E5527C868B000CB0850 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46856F62F2536941A0011833 /* Pods-ExHeroNavigation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +385,7 @@
 		};
 		C69F8E5627C868B000CB0850 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D2821F5BAEC4B642918FDEF /* Pods-ExHeroNavigation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

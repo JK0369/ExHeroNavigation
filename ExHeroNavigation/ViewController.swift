@@ -6,14 +6,21 @@
 //
 
 import UIKit
+import Hero
 
 class ViewController: UIViewController {
 
+  @IBOutlet weak var blueView: UIView!
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view.
+    self.title = "첫 번째 VC"
+    self.blueView.isHeroEnabled = true // <-
+    self.blueView.hero.id = "myAnimationTarget" // <-
   }
 
-
+  @IBAction func push(_ sender: Any) {
+    let vc2 = VC2()
+    vc2.modalPresentationStyle = .fullScreen
+    self.present(vc2, animated: true)
+  }
 }
-

@@ -1,0 +1,6 @@
+framework module Pods_ExHeroNavigation {
+  umbrella header "Pods-ExHeroNavigation-umbrella.h"
+
+  export *
+  module * { export * }
+}
